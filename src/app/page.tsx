@@ -36,33 +36,32 @@ export default function Home() {
       <section id="classes" className="section">
         <h2>Our Classes</h2>
         <div className="mini-grid">
-          {' '}
           <article className="mini-card">
             <h3>All Classes</h3>
             <p>
-              All Classes is preserved as a visible content area from the original WordPress
-              homepage.
+              Explore approachable yoga classes designed for movement, breath, balance, and steady
+              progress.
             </p>
           </article>
           <article className="mini-card">
             <h3>Become A Member</h3>
             <p>
-              Become A Member is preserved as a visible content area from the original WordPress
-              homepage.
+              Build a consistent practice with support, encouragement, and a welcoming class
+              community.
             </p>
           </article>
           <article className="mini-card">
             <h3>Take Your First Class for Free</h3>
             <p>
-              Take Your First Class for Free is preserved as a visible content area from the
-              original WordPress homepage.
+              Try a first class and see whether April Unlimited is the right fit for your wellness
+              goals.
             </p>
           </article>
           <article className="mini-card">
             <h3>Newsletter</h3>
             <p>
-              Newsletter is preserved as a visible content area from the original WordPress
-              homepage.
+              Get class updates, retreat details, and fitness notes delivered when new opportunities
+              open.
             </p>
           </article>
         </div>
@@ -85,38 +84,35 @@ export default function Home() {
         <div>
           <h2>Our Equipment</h2>
           <p>
-            Use our brand new Pelaton Bike+ that I got for Christmas to help with your fitness
-            journy.
+            Use our brand new Peloton Bike+ that I got for Christmas to help with your fitness
+            journey.
           </p>
         </div>
         <div className="accordion-list">
-          {' '}
           <details className="accordion">
             <summary>Weekly Classes</summary>
             <p>
-              Weekly Classes support for Aprilunlimited clients, migrated from the live WordPress
-              content into a static Next.js experience.
+              Regular classes for students who want consistent movement, breathwork, and practical
+              yoga instruction.
             </p>
           </details>
           <details className="accordion">
             <summary>Private Classes</summary>
             <p>
-              Private Classes support for Aprilunlimited clients, migrated from the live WordPress
-              content into a static Next.js experience.
+              One-on-one yoga sessions shaped around your body, schedule, goals, and comfort level.
             </p>
           </details>
           <details className="accordion">
             <summary>Summer Yoga Retreat</summary>
             <p>
-              Summer Yoga Retreat support for Aprilunlimited clients, migrated from the live
-              WordPress content into a static Next.js experience.
+              A seasonal retreat experience for deeper practice, restoration, and time away from
+              daily pressure.
             </p>
           </details>
           <details className="accordion">
             <summary>Our Equipment</summary>
             <p>
-              Our Equipment support for Aprilunlimited clients, migrated from the live WordPress
-              content into a static Next.js experience.
+              Fitness equipment and practical support to round out the yoga and wellness experience.
             </p>
           </details>
         </div>
