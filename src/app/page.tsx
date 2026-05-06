@@ -5,7 +5,7 @@ export default function Home() {
         <a className="logo round" href="#top">
           <img
             src="https://aprilunlimited.com/wp-content/uploads/2023/12/2-a01a62fd-520c-4bfa-b6af-9be16ec31ad1-512x512-e1703469105732.jpg"
-            alt="April Unlimited"
+            alt="April Unlimitied"
           />
         </a>
         <nav>
@@ -17,52 +17,59 @@ export default function Home() {
       </header>
       <section id="top" className="hero split">
         <div className="hero-copy">
-          <p className="eyebrow">Welcome to April Unlimited</p>
           <h1>April The Yoga Instructor</h1>
-          <h3>We only do the most Yoga type Yoga.</h3>
-          <p>
-            Welcome to April Unlimited, where you’ll experience a truly unique and transformative
-            yoga journey.
-          </p>
+          <p>Learn Yoga with a dedicated and certified instructor.</p>
           <a className="button" href="#classes">
-            Take Your First Class for Free
+            Take a Class
           </a>
+          <h3>We only do the most Yoga type Yoga.</h3>
+          <h3>
+            Welcome to April Unlimited, where you’ll experience a truly unique and transformative
+            yoga journey. Our dedicated and certified yoga instructor will guide you through dynamic
+            and mindful classes, ensuring you receive the utmost support and guidance on your path
+            to self-discovery.
+          </h3>
         </div>
         <img
           src="https://aprilunlimited.com/wp-content/uploads/2023/12/PXL_20231003_222457165-scaled.jpg"
           alt="April Unlimited yoga"
         />
       </section>
+      <section className="section">
+        <h3>Classes &amp; Retreats</h3>
+        <p>
+          Our yoga classes and retreats are designed to guide you on a journey of self-discovery.
+          Led by our dedicated and certified yoga instructor, you’ll experience dynamic and mindful
+          classes that provide the utmost support and guidance. Whether you’re joining our weekly
+          classes or opting for private sessions, we offer a truly unique yoga experience. Become a
+          member and gain access to exclusive benefits, including our highly anticipated Summer Yoga
+          Retreat. Don’t miss out, book your spot today. Curabitur aliquet dui ac ve. Take your
+          first class for free and start your yoga journey with us. Follow us on social media for
+          updates and inspiration. Join us at April Unlimited, where yoga becomes an unlimited
+          adventure.
+        </p>
+      </section>
       <section id="classes" className="section">
         <h2>Our Classes</h2>
         <div className="mini-grid">
           <article className="mini-card">
-            <h3>All Classes</h3>
-            <p>
-              Explore approachable yoga classes designed for movement, breath, balance, and steady
-              progress.
-            </p>
+            <h4>All Classes</h4>
+            <h3>Weekly Classes</h3>
+            <a className="button ghost" href="#contact">
+              Join To Group
+            </a>
           </article>
           <article className="mini-card">
-            <h3>Become A Member</h3>
-            <p>
-              Build a consistent practice with support, encouragement, and a welcoming class
-              community.
-            </p>
+            <h3>Private Classes</h3>
+            <a className="button ghost" href="#contact">
+              Join To Group
+            </a>
           </article>
           <article className="mini-card">
-            <h3>Take Your First Class for Free</h3>
-            <p>
-              Try a first class and see whether April Unlimited is the right fit for your wellness
-              goals.
-            </p>
-          </article>
-          <article className="mini-card">
-            <h3>Newsletter</h3>
-            <p>
-              Get class updates, retreat details, and fitness notes delivered when new opportunities
-              open.
-            </p>
+            <h2>Become A Member</h2>
+            <a className="button ghost" href="#classes">
+              View Classes &amp; Memberships
+            </a>
           </article>
         </div>
       </section>
@@ -74,55 +81,84 @@ export default function Home() {
         <div>
           <h2>Summer Yoga Retreat</h2>
           <p>
-            Classes and retreats designed to help you reset, breathe, and build a steady wellness
-            practice.
+            Embark on a transformative journey this summer with our exclusive Summer Yoga Retreat at
+            April Unlimited. Immerse yourself in tailored, mindful sessions led by our certified
+            yoga instructors, and experience the ultimate blend of relaxation, rejuvenation, and
+            self-discovery. Escape the hustle and bustle of everyday life and unwind in a serene and
+            picturesque setting, where you can connect with nature and find inner balance. Don’t
+            miss out on this unlimited adventure – book your spot today and unlock your unlimited
+            potential. Join us at April Unlimited, where yoga becomes an unlimited adventure.
           </p>
+          <a className="button ghost" href="#contact">
+            Book Your Spot
+          </a>
           <blockquote>“Working with April Changed my Life”</blockquote>
+          <a className="button ghost" href="#contact">
+            Testimonials
+          </a>
         </div>
       </section>
       <section className="section two-col">
         <div>
           <h2>Our Equipment</h2>
-          <p>
-            Use our brand new Peloton Bike+ that I got for Christmas to help with your fitness
-            journey.
-          </p>
+          <h3>
+            Use our brand new Pelaton Bike+ that I got for Christmas to help with your fitness
+            journy.
+          </h3>
         </div>
         <div className="accordion-list">
           <details className="accordion">
             <summary>Weekly Classes</summary>
-            <p>
-              Regular classes for students who want consistent movement, breathwork, and practical
-              yoga instruction.
-            </p>
+            <p>Weekly classes for students who want consistent practice.</p>
           </details>
           <details className="accordion">
             <summary>Private Classes</summary>
-            <p>
-              One-on-one yoga sessions shaped around your body, schedule, goals, and comfort level.
-            </p>
+            <p>Private sessions shaped around your body, schedule, and comfort level.</p>
           </details>
           <details className="accordion">
             <summary>Summer Yoga Retreat</summary>
-            <p>
-              A seasonal retreat experience for deeper practice, restoration, and time away from
-              daily pressure.
-            </p>
+            <p>A seasonal retreat experience for restoration and self-discovery.</p>
           </details>
           <details className="accordion">
             <summary>Our Equipment</summary>
-            <p>
-              Fitness equipment and practical support to round out the yoga and wellness experience.
-            </p>
+            <p>Fitness equipment and support to round out the yoga experience.</p>
           </details>
         </div>
       </section>
+      <section className="section">
+        <h2>Take Your First Class for Free</h2>
+        <p>
+          Ready to embark on your yoga journey? Join us at April Unlimited and take your first class
+          for free! Our dedicated and certified yoga instructor will guide you through dynamic and
+          mindful classes, providing the utmost support and guidance on your path to self-discovery.
+          Whether you’re a beginner or experienced, our classes offer unparalleled support and
+          guidance. Unlock your unlimited potential and embrace a positive journey towards
+          self-discovery and inner balance. Don’t miss out, book your spot today and experience the
+          incredible benefits of our yoga classes at April Unlimited. Follow us on social media for
+          updates and inspiration. Join us at April Unlimited, where yoga becomes an unlimited
+          adventure.
+        </p>
+        <a className="button" href="#contact">
+          Sign Up Today
+        </a>
+      </section>
       <section id="contact" className="contact">
+        <p>Sat-Sun: 8 AM – 2 PM</p>
+        <p>An undisclosed number</p>
+        <p>A Mountain Somewhere</p>
+        <a href="mailto:info@aprilunlimited.com">[email protected]</a>
         <h2>Newsletter</h2>
-        <p>Follow us for classes, retreats, and opening hours.</p>
+        <h2>Success!</h2>
+        <p>Email</p>
         <a className="button" href="mailto:info@aprilunlimited.com">
           Subscribe
         </a>
+        <nav className="social-links" aria-label="Social links">
+          <a href="#contact">Facebook</a>
+          <a href="#contact">X</a>
+          <a href="#contact">Instagram</a>
+          <a href="#contact">RSS</a>
+        </nav>
       </section>
     </main>
   )
