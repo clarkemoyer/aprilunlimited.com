@@ -1,42 +1,132 @@
-const upcoming = [
-  'A focused coming-soon landing page',
-  'Portfolio-level ownership and GitHub Pages deployment',
-  'A content plan that can grow into the full site when ready',
-]
-
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
-      <section className="mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center px-6 py-16 sm:px-8 lg:px-12">
-        <p className="mb-6 text-sm font-semibold uppercase tracking-[0.35em] text-sky-300">
-          Coming soon
-        </p>
-        <h1 className="max-w-4xl text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
-          April Unlimited
-        </h1>
-        <p className="mt-6 max-w-2xl text-xl leading-8 text-slate-200">
-          A creative and professional web presence is being prepared.
-        </p>
-
-        <div className="mt-10 grid gap-4 sm:grid-cols-3">
-          {upcoming.map((item) => (
-            <div
-              key={item}
-              className="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-2xl shadow-black/20"
-            >
-              <p className="text-sm leading-6 text-slate-200">{item}</p>
-            </div>
-          ))}
+    <main className="wp-migration yoga">
+      <header className="site-header">
+        <a className="logo round" href="#top">
+          <img
+            src="https://aprilunlimited.com/wp-content/uploads/2023/12/2-a01a62fd-520c-4bfa-b6af-9be16ec31ad1-512x512-e1703469105732.jpg"
+            alt="April Unlimited"
+          />
+        </a>
+        <nav>
+          <a href="#classes">Classes</a>
+          <a href="#retreat">Retreats</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button aria-label="Open menu">☰</button>
+      </header>
+      <section id="top" className="hero split">
+        <div className="hero-copy">
+          <p className="eyebrow">Welcome to April Unlimited</p>
+          <h1>April The Yoga Instructor</h1>
+          <h3>We only do the most Yoga type Yoga.</h3>
+          <p>
+            Welcome to April Unlimited, where you’ll experience a truly unique and transformative
+            yoga journey.
+          </p>
+          <a className="button" href="#classes">
+            Take Your First Class for Free
+          </a>
         </div>
-
-        <div className="mt-12 rounded-3xl border border-sky-300/20 bg-sky-300/10 p-6">
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-200">Domain</p>
-          <p className="mt-2 text-2xl font-semibold text-white">aprilunlimited.com</p>
-          <p className="mt-4 text-sm leading-6 text-slate-300">
-            This starter site was initialized from the Free For Charity single-page template and
-            adapted for the Clarke Moyer portfolio site migration program.
+        <img
+          src="https://aprilunlimited.com/wp-content/uploads/2023/12/PXL_20231003_222457165-scaled.jpg"
+          alt="April Unlimited yoga"
+        />
+      </section>
+      <section id="classes" className="section">
+        <h2>Our Classes</h2>
+        <div className="mini-grid">
+          {' '}
+          <article className="mini-card">
+            <h3>All Classes</h3>
+            <p>
+              All Classes is preserved as a visible content area from the original WordPress
+              homepage.
+            </p>
+          </article>
+          <article className="mini-card">
+            <h3>Become A Member</h3>
+            <p>
+              Become A Member is preserved as a visible content area from the original WordPress
+              homepage.
+            </p>
+          </article>
+          <article className="mini-card">
+            <h3>Take Your First Class for Free</h3>
+            <p>
+              Take Your First Class for Free is preserved as a visible content area from the
+              original WordPress homepage.
+            </p>
+          </article>
+          <article className="mini-card">
+            <h3>Newsletter</h3>
+            <p>
+              Newsletter is preserved as a visible content area from the original WordPress
+              homepage.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="retreat" className="feature">
+        <img
+          src="https://aprilunlimited.com/wp-content/uploads/2023/12/yoga-instrcutor_82.jpg"
+          alt="Yoga retreat"
+        />
+        <div>
+          <h2>Summer Yoga Retreat</h2>
+          <p>
+            Classes and retreats designed to help you reset, breathe, and build a steady wellness
+            practice.
+          </p>
+          <blockquote>“Working with April Changed my Life”</blockquote>
+        </div>
+      </section>
+      <section className="section two-col">
+        <div>
+          <h2>Our Equipment</h2>
+          <p>
+            Use our brand new Pelaton Bike+ that I got for Christmas to help with your fitness
+            journy.
           </p>
         </div>
+        <div className="accordion-list">
+          {' '}
+          <details className="accordion">
+            <summary>Weekly Classes</summary>
+            <p>
+              Weekly Classes support for Aprilunlimited clients, migrated from the live WordPress
+              content into a static Next.js experience.
+            </p>
+          </details>
+          <details className="accordion">
+            <summary>Private Classes</summary>
+            <p>
+              Private Classes support for Aprilunlimited clients, migrated from the live WordPress
+              content into a static Next.js experience.
+            </p>
+          </details>
+          <details className="accordion">
+            <summary>Summer Yoga Retreat</summary>
+            <p>
+              Summer Yoga Retreat support for Aprilunlimited clients, migrated from the live
+              WordPress content into a static Next.js experience.
+            </p>
+          </details>
+          <details className="accordion">
+            <summary>Our Equipment</summary>
+            <p>
+              Our Equipment support for Aprilunlimited clients, migrated from the live WordPress
+              content into a static Next.js experience.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section id="contact" className="contact">
+        <h2>Newsletter</h2>
+        <p>Follow us for classes, retreats, and opening hours.</p>
+        <a className="button" href="mailto:info@aprilunlimited.com">
+          Subscribe
+        </a>
       </section>
     </main>
   )

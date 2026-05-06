@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test'
 
-test('coming-soon page renders the site name and domain', async ({ page }) => {
+test('migrated WordPress homepage renders key live-site content', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByRole('heading', { name: /April Unlimited/i })).toBeVisible()
-  await expect(page.getByText('aprilunlimited.com')).toBeVisible()
-  await expect(page.getByText(/coming soon/i).first()).toBeVisible()
+  await expect(page.getByRole('heading', { name: /April/i }).first()).toBeVisible()
+  await expect(page.getByText(/April/i).first()).toBeVisible()
+  await expect(page.getByText(/Weekly/i).first()).toBeVisible()
 })
