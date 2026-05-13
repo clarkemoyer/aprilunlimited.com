@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://clarkemoyer.github.io/aprilunlimited.com'),
-  title: { default: 'Home | April Unlimitied', template: '%s | April Unlimited' },
+  title: { default: 'Home | April Unlimited', template: '%s | April Unlimited' },
   description: 'April The Yoga Instructor',
   robots: { index: true, follow: true },
   alternates: { canonical: '/' },
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://clarkemoyer.github.io/aprilunlimited.com/',
     siteName: 'April Unlimited',
-    title: 'Home | April Unlimitied',
+    title: 'Home | April Unlimited',
     description: 'April The Yoga Instructor',
   },
 }

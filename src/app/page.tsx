@@ -5,7 +5,7 @@ export default function Home() {
         <a className="logo round" href="#top">
           <img
             src="https://aprilunlimited.com/wp-content/uploads/2023/12/2-a01a62fd-520c-4bfa-b6af-9be16ec31ad1-512x512-e1703469105732.jpg"
-            alt="April Unlimitied"
+            alt="April Unlimited"
           />
         </a>
         <nav>
