@@ -4,7 +4,7 @@ export default function Home() {
       <header className="site-header">
         <a className="logo round" href="#top">
           <img
-            src="https://aprilunlimited.com/wp-content/uploads/2023/12/2-a01a62fd-520c-4bfa-b6af-9be16ec31ad1-512x512-e1703469105732.jpg"
+            src="/wp-content/uploads/2023/12/2-a01a62fd-520c-4bfa-b6af-9be16ec31ad1-512x512-e1703469105732.jpg"
             alt="April Unlimited"
           />
         </a>
@@ -31,7 +31,7 @@ export default function Home() {
           </h3>
         </div>
         <img
-          src="https://aprilunlimited.com/wp-content/uploads/2023/12/PXL_20231003_222457165-scaled.jpg"
+          src="/wp-content/uploads/2023/12/PXL_20231003_222457165-scaled.jpg"
           alt="April Unlimited yoga"
         />
       </section>
@@ -74,10 +74,7 @@ export default function Home() {
         </div>
       </section>
       <section id="retreat" className="feature">
-        <img
-          src="https://aprilunlimited.com/wp-content/uploads/2023/12/yoga-instrcutor_82.jpg"
-          alt="Yoga retreat"
-        />
+        <img src="/wp-content/uploads/2023/12/yoga-instrcutor_82.jpg" alt="Yoga retreat" />
         <div>
           <h2>Summer Yoga Retreat</h2>
           <p>
