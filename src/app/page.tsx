@@ -38,18 +38,20 @@ export default function Home() {
             <a className="button" href="#classes">
               Take a Class
             </a>
-            <h3>We only do the most Yoga type Yoga.</h3>
-            <h3>
-              Welcome to April Unlimited, where you’ll experience a truly unique and transformative
-              yoga journey. Our dedicated and certified yoga instructor will guide you through
-              dynamic and mindful classes, ensuring you receive the utmost support and guidance on
-              your path to self-discovery.
-            </h3>
           </div>
           <img
             src="/wp-content/uploads/2023/12/PXL_20231003_222457165-scaled.jpg"
             alt="April Unlimited yoga"
           />
+        </section>
+        <section className="section intro-section">
+          <h2>We only do the most Yoga type Yoga.</h2>
+          <p>
+            Welcome to April Unlimited, where you’ll experience a truly unique and transformative
+            yoga journey. Our dedicated and certified yoga instructor will guide you through dynamic
+            and mindful classes, ensuring you receive the utmost support and guidance on your path
+            to self-discovery.
+          </p>
         </section>
         <section className="section">
           <h3>Classes &amp; Retreats</h3>
